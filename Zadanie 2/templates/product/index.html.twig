@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista Produktów</title>
+</head>
+<body>
+    <h1>Nasze Produkty</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nazwa</th>
+            <th>Cena</th>
+        </tr>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.price }} PLN</td>
+            </tr>
+        {% else %}
+            <tr><td colspan="3">Brak produktów.</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

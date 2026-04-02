@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista Klientów</title>
+</head>
+<body>
+    <h1>Klienci</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+        </tr>
+        {% for customer in customers %}
+            <tr>
+                <td>{{ customer.id }}</td>
+                <td>{{ customer.email }}</td>
+            </tr>
+        {% else %}
+            <tr><td colspan="2">Brak klientów.</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
