@@ -1,7 +1,7 @@
 **Zadanie 2** Wzorce architektury
 
 Wszystkie punkty na 5.0 zostały zrealizowane.
-Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/9c4cbae9e210a870aabf690a9d896b66c2af1a5e
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/51ecf34c1e0d206e94af229295789f41972cf984
 
 **Widoki (przeglądarka):**
 - `http://localhost:8000/products` — lista produktów
