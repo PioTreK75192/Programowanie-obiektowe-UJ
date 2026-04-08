@@ -2,6 +2,8 @@
 
 Wszystkie punkty na 5.0 zostały zrealizowane.
 
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/5c39b57fe978fa18f046da0ddcdad979be7bc3c8
+
 **API (JSON):**
 - `GET http://localhost:8080/api/users/eager` — lista użytkowników z hasłami na wersji eager
 - `GET http://localhost:8080/api/users/lazy` — lista użytkowników z hasłami na wersji lazy
@@ -12,4 +14,5 @@ Wszystkie punkty na 5.0 zostały zrealizowane.
 Uruchamia się serwis za pomocą:
 
 Linux/MacOS: ./gradlew bootRun
+
 Windows: .\gradlew.bat bootRun
