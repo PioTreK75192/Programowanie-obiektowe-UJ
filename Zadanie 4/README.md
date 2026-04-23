@@ -1,6 +1,8 @@
 **Zadanie 4** Wzorce strukturalne
 
-Wszystkie punkty na 5.0 zostały zrealizowane.<br><br>
+Wszystkie punkty na 5.0 zostały zrealizowane.
+
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/00591044785c930782da5f1541d173332261486c<br><br>
 
 **Kompilacja i uruchomienie**
 
@@ -82,3 +84,4 @@ curl -X POST "http://localhost:8080/weather" -H "Content-Type: application/json"
   "errors": []
 }
 ```
+
