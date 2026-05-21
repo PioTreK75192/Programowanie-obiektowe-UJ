@@ -2,6 +2,8 @@
 
 Projekt sklada sie z aplikacji klienckiej React TypeScript oraz aplikacji serwerowej Express.
 
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/9b5d2df51939da862d737519c873d17e7b110417
+
 Zrealizowane elementy:
 
 - komponent Produkty pobiera liste produktow z backendu,
