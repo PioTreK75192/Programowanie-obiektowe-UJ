@@ -2,7 +2,7 @@
 
 Projekt sklada sie z aplikacji klienckiej React TypeScript oraz aplikacji serwerowej Express.
 
-Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/9b5d2df51939da862d737519c873d17e7b110417
+Link do commita z zadaniem 5 bez późniejszych zmian (bez zmian z Zadania 6): https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/9b5d2df51939da862d737519c873d17e7b110417
 
 Zrealizowane elementy:
 
@@ -24,7 +24,13 @@ server/   aplikacja serwerowa Express
 
 **Uruchomienie lokalne**
 
-Instalacja zaleznosci:
+Instalacja zaleznosci z katalogu `Zadanie 5`:
+
+```bash
+npm install
+```
+
+Instalacja zaleznosci aplikacji klienckiej i serwerowej:
 
 ```bash
 npm run install:all
@@ -42,6 +48,16 @@ Adresy aplikacji:
 Frontend: http://localhost:8000
 Backend:  http://localhost:5000
 ```
+
+**Lintowanie**
+
+Po instalacji można sprawdzić kod JS/TS z katalogu `Zadanie 5`:
+
+```bash
+npm run lint:js
+```
+
+Skrypt `prepare` aktywuje też hook `husky`, który przed commitem uruchamia `lint-staged`.
 
 **Uruchomienie przez Docker**
 
