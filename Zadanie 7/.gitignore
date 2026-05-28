@@ -1,0 +1,16 @@
+.build/
+.swiftpm/
+Packages/
+DerivedData/
+
+db.sqlite
+db.sqlite-*
+*.sqlite
+*.sqlite-*
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  app:
+    image: swift:6.0-jammy
+    working_dir: /workspace
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOSTNAME: redis
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/workspace
+      - swift-build:/tmp/swift-build
+    command: >
+      sh -c "swift run --scratch-path /tmp/swift-build Run migrate --yes &&
+             swift run --scratch-path /tmp/swift-build Run serve --hostname 0.0.0.0"
+
+volumes:
+  swift-build:
+    name: zadanie7-swift-build
