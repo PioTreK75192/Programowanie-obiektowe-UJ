@@ -1,5 +1,7 @@
 **Zadanie 8**
 
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/7b65315a5efca7a59454aaeb82ee7494f3078dc1
+
 Zrealizowano punkty na ocene 4.5:
 
 - 3.0 Test formularza rejestracji: pola obowiazkowe i niepoprawny format adresu e-mail.
