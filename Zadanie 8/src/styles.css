@@ -1,0 +1,42 @@
+body {
+  background: #f4f6f9;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.content-panel {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.product-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.cart-summary {
+  background: #eef5ff;
+  border: 1px solid #b6d4fe;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.security-log {
+  min-height: 48px;
+}
