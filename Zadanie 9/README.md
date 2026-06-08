@@ -1,5 +1,9 @@
 # Zadanie 9 - Chmura
 
+Link do commita: https://github.com/PioTreK75192/Programowanie-obiektowe-UJ/commit/782f96981e509558da5cc5a6e4bff7581ac5b3ca
+
+Link do strony działającej w chmurze: https://programowanie-obiektowe-uj.onrender.com/
+
 Zrealizowano punkty na ocene 3.0:
 
 - Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
