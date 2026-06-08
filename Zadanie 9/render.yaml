@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: zadanie-9-sklep
+    runtime: docker
+    plan: free
+    rootDir: "Zadanie 9"
+    dockerfilePath: ./Dockerfile.render
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_PORT
+        value: 5000
+      - key: VITE_API_URL
+        value: ""
